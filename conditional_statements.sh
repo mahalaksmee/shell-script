@@ -5,10 +5,12 @@ echo "Choose your color from red, green, blue: "
 read  color
 
 if [ "$color" = 'red' ]; then
-    echo "your cheerful"
+    echo "you choosed red"
 elif [ "$color" = 'blue' ]; then
-    echo "echo you are lucky"
+    echo "you choosed blue"
+elif [ "$color" = 'green' ]; then
+    echo "you choosed green"
 else
-    echo "you are both"
+    echo "Invalid option"
 fi
 
